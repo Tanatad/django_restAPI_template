@@ -90,10 +90,10 @@ WSGI_APPLICATION = 'drt.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'mssql',
-        'NAME': 'hai-cafe-db',
-        'USER': 'haiadmin',
+        'NAME': 'tanatad-cafe',
+        'USER': 'cefeadmin',
         'PASSWORD': 'Az@123456',
-        'HOST': 'hai-cafe-db-server.database.windows.net',
+        'HOST': 'tanatad-db.database.windows.net',
         'PORT': '1433',
 
         'OPTIONS': {
